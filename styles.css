@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+strong,
+ol,
+ul,
+li,
+footer,
+header,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+/***********
+    MY CSS 
+************/
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  color: #f9faf8;
+  padding: 8px 48px;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+header,
+.information,
+.quote,
+.call,
+footer {
+  padding: 0 128px;
+}
+
+header,
+footer {
+  color: #f9faf8;
+  background-color: #1f2937;
+}
+
+header {
+  padding-top: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__left {
+  font-size: 24px;
+}
+
+.nav__right,
+.header-left__text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+ul {
+  display: flex;
+  text-decoration: none;
+}
+
+li {
+  margin-left: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  display: flex;
+  gap: 32px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.header__image {
+  max-width: 350px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
